@@ -164,6 +164,10 @@ div.iconBar {
     padding-bottom: 30%;
   }
 
+  h1 {
+    width: 140%;
+    margin: 0 auto 0 -20%;
+  }
 
   h2 {
     font-size: 87.5%;
@@ -175,6 +179,7 @@ div.iconBar {
   }
 
   .box {
+    width: 70%;
     margin-bottom: 10%;
   }
 
@@ -225,7 +230,12 @@ div.iconBar {
 
   h1 {
     font-size: 62.5%;
+    width: 140%;
     color: white;
+  }
+
+  .box {
+    width: 60%;
   }
 
   .cv-link {
@@ -265,7 +275,12 @@ div.iconBar {
 
   h1 {
     font-size: 2rem !important;
+    width: 140%;
   }
+
+.box {
+  width: 60%;
+}
 
   h2 {
     width: 65%;
