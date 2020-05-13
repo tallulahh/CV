@@ -1,0 +1,260 @@
+html, body {
+  text-align: center;
+  scroll-behavior: smooth;
+  background-color: #4e4e4e;
+  color: white;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #7bc67b;
+  text-decoration: line-through;
+}
+
+.sectionOne {
+  width: 100%;
+}
+
+.sectionTwo, .sectionThree {
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+
+.sectionFour, .footer {
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-family: "Cormorant Unicase", serif;
+  color: white;
+  font-size: 5.2rem;
+  position: relative;
+  width: 140%;
+  margin: -4% auto 0 -20%;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-family: "Amatic SC", cursive;
+  width: 30%;
+  position: relative;
+  margin: 0 auto 5%;
+}
+
+h6 {
+  font-family: "Amatic SC", cursive;
+  font-size: 1.4rem;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 5%;
+  box-shadow: 0 0 70px rgba(123, 198, 123, 1);
+}
+
+#cv {
+  padding-top: 5%;
+}
+
+.box {
+  width: 40%;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #7bc67b;
+  position: relative;
+  margin: 20% auto 5%;
+  padding-top: 1%;
+  opacity: 0.9;
+}
+
+.box:after {
+  content: "";
+  display: block;
+  padding-bottom: 2%;
+}
+
+.about {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 7%;
+  font-family: 'Amatic SC', cursive;
+}
+
+.about-name h3 {
+  font-size: 2.8rem;
+  width: 200%;
+  margin-left: -50%;
+}
+
+.about-para {
+  width: 130%;
+  position: relative;
+  margin-left: -15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 1.6rem;
+}
+
+.about-box {
+  width: 60%;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #7bc67b;
+  position: relative;
+  margin: 10% auto 0;
+  opacity: 0.5;
+}
+
+.about-box:after {
+  content: "";
+  display: block;
+  padding-bottom: 5%;
+}
+
+.cv-link {
+  padding-top: 10%;
+}
+
+#interests {
+  background-color: white;
+  color: black;
+  width: 60%;
+  height: 60vh;
+  margin: 10% auto;
+  padding: 5% 10%;
+  box-shadow: 0 0 70px rgba(123, 198, 123, 1);
+}
+
+#interests a {
+  color: black;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  float: left;
+  height: 40vh;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-evenly;
+  float: right;
+  height: 40vh;
+  width: 75%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.2rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #7bc67b;
+}
+
+.icon:hover {
+  color: #4e4e4e;
+  opacity: 0.3;
+  transform: scale(1.2);
+  transition: all 1.3s;
+}
+
+.foot ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Amatic SC', cursive;
+  padding: 0 2rem;
+}
+
+.foot ul li {
+  list-style: none;
+}
+
+@media screen and (max-width:550px) {
+  h6 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .sectionOne {
+    padding-top: 15%;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-name h3 {
+    margin-bottom: 4rem;
+    font-size: 2.3rem;
+  }
+
+  .about-para {
+    font-size: 1.2rem;
+    width: 200%;
+    margin-left: -50%;
+  }
+}
+
+@media screen and (max-width:1290px) {
+  h1 {
+    width: 270%;
+    margin-left: -85%;
+  }
+
+  h2 {
+    width: 80%;
+    margin-top: 10rem;
+  }
+
+  h6 {
+    margin-top: 4rem;
+  }
+
+  .box {
+    width: 60%;
+    top: 13%;
+  }
+
+  .sectionOne, .sectionTwo {
+    height: 100vh;
+  }
+
+  .sectionFour {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+  }
+
+  .about-para {
+    width: 150%;
+    margin-left: -25%;
+  }
+
+  .about {
+    width: 60%;
+  }
+
+  img, #interests {
+    width: 90%;
+  }
+}
