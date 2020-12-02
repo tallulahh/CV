@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="cursor"></div>
+  <div class="container">
+
+    <div class="title">
+      <h1 class="hoverable">Tallulah Carlisle</h1>
+      <h2 class="hoverable">Full-stack Web Developer</h2>
+    </div>
+    <div class="progress">
+      <div class="bar"></div>
+    </div>
+    <div class="about">
+      <div id="about">
+        <h3>Profile</h3>
+        <p>Creative and highly adaptive full stack developer. From an artistic background, I like clean and simple design and playing with smooth animation.</p>
+      </div>
+      <div id="contact">
+        <h3>Contact</h3>
+        <ul>
+          <li>+34 619 824 491</li>
+          <li class="hoverable" id="email" onclick="location.href='mailto:tallulah.carlisle@gmail.com';">tallulah.carlisle@gmail.com</li>
+          <li>Menorca, Spain</li>
+        </ul>
+      </div>
+    </div>
+    <div class="experience">
+      <div id="left">
+        <h3>Featured Projects</h3>
+        <h4 class="hoverable" id="portfolioLink">Web Developer Portfolio • 2019-2020</h4>
+        <p>tallulah.github.io/portfolio<br>A portfolio of web design and developmen. Built with HTML, CSS, Javascript and GSAP.</p>
+        <h4 class="hoverable" id="blogLink">Personal Blog • 2019-2020</h4>
+        <p>tallulah.github.io/blog<br>A blog to document and follow personal interests and acquired knowledge. Built using HTML, CSS and NodeJS</p>
+        <h4 class="hoverable" id="sailingLink">Sailing Booking Site • 2018-2019</h4>
+        <p>sailingbarcelona.com<br>A website promoting and dealing with booking sailing trips. Built with HTML, CSS, Javascript and Bootstrap.</p>
+
+      </div>
+      <div id="right">
+        <h3>Key Skills</h3>
+        <h4>Front-End</h4>
+        <p>Javascript, HTML5, CSS3, React, jQuery, Bootstrap, Adobe Photoshop</p>
+        <h4>Back-End</h4>
+        <p>NodeJS, ExpressJs, Python, C</p>
+        <h4>Databases</h4>
+        <p>MongoDB, PostreSQL</p>
+        <h4>Other</h4>
+        <p>Github, Command Line, Web APIs, Restful Webservices, IOS Development</p>
+
+      </div>
+    </div>
+    <div class="education">
+      <div id="eduLeft">
+        <h3>Education</h3>
+        <h4>Ravensbourne College of Art • 2011-2012</h4>
+        <p>Art Foundation in Graphics, Textiles and Lens-based Media.</p>
+        <h4>Wimbledon High School • 2007-2011</h4>
+        <p>A-level: Design & Technology, History of Art and Spanish.</p>
+      </div>
+      <div id="eduRight">
+        <h3>Additional Education</h3>
+        <h4>The Complete 2019 Web Development Bootcamp, Udemy • 2019</h4>
+        <p>Training in HTML, CSS, BootStrap4, Javascript ES6, DOM Manipulation, jQuery, Unix Command Line, NodeJS, Express, Git, Github, APIs, EJS, SQL, NoSQL, MongoDB, Mongoose, Authentication & Security.</p>
+        <h4>CS50 Computer Science Principles, Harvard Extension School, EdX • 2018-2019</h4>
+        <p>Introduction to the basics in Hardware, Internet, Multimedia, Security and more. Trained & tested in Python and C.</p>
+        <h4>Photoshop Intensive, Fashion & Textiles Museum • 2011</h4>
+        <p>Intensive course in Adobe Photoshop</p>
+      </div>
+    </div>
+    <div class="footer">
+      <i class="fab fa-codepen hoverable" id="icon1"></i>
+      <i class="fab fa-github hoverable" id="icon2"></i>
+      <i class="fab fa-linkedin-in hoverable" id="icon3"></i>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
