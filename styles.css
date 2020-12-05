@@ -125,10 +125,10 @@ ul li {
 }
 
 #about h3 {
-  padding-right: 40px;
+  padding-right: 5%;
 }
 #about p{
-  padding-left: 150px;
+  padding-left: 10%;
 }
 
 #contact {
@@ -137,7 +137,7 @@ ul li {
   text-align: left;
 }
 #contact h3, ul {
-  padding-left: 40px;
+  padding-left: 5%;
 }
 
 #email {
@@ -160,11 +160,11 @@ ul li {
   text-align: right;
 }
 #left h3, h4, p {
-  padding-right: 40px;
+  padding-right: 5%;
 }
 
 #left p{
-  padding-left: 180px;
+  padding-left: 10%;
 }
 #right {
   width: 50%;
@@ -173,10 +173,10 @@ ul li {
 }
 
 #right h3, h4, p {
-  padding-left: 40px;
+  padding-left: 5%;
 }
 #right p{
-  padding-right: 180px;
+  padding-right: 10%;
 }
 
 #eduLeft {
@@ -192,12 +192,12 @@ ul li {
 
 }
 #eduLeft h3, #eduLeft h4, #eduLeft p {
-  padding-right: 40px;
-  padding-left: 100px;
+  padding-right: 5%;
+  padding-left: 10%;
 }
 #eduRight h3, #eduRight h4, #eduRight p {
-  padding-left: 40px;
-  padding-right: 100px;
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
 .footer {
