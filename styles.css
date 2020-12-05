@@ -205,9 +205,8 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-left: 100px;
   margin-top: -160px;
-  width: 500px;
+  width: 40%;
 }
 
 .fab {
