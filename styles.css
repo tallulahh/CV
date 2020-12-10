@@ -218,3 +218,8 @@ ul li {
 .fab:hover{
   color: #f046e4;
 }
+
+@media screen and (max-width: 600px) {
+ .progress, .bar {
+   visibility: hidden;
+}
